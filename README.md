@@ -1,4 +1,4 @@
-This repository provides the code for the WACV20 paper *Synthesizing human-like sketches from natural images using a conditional convolutional decoder*.
+This repository provides the code for the WACV20 paper *Synthesizing human-like sketches from natural images using a conditional convolutional decoder*. Find more details [Here](https://kampelmuehler.github.io/publications/synthesizing_human_like_sketches).
 
 ![Title figure](figures/title.png)
 
