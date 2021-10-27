@@ -170,5 +170,6 @@ labels_onehot = torch.zeros(1, args.num_classes).to(device)
 labels_onehot[:, labeltoID[args.label]] = 1.
 sketch = model(image, labels=labels_onehot)
 sketch = sketch.cpu()
+sketch = 1-sketch 
 name, ext = os.path.splitext(args.img_path)
 save_image(sketch, f"{name}_processed{ext}")
